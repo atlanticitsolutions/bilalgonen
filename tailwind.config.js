@@ -23,6 +23,13 @@ export default {
         texts: `sohne, Helvetica Neue, Helvetica, Arial, sans-serif`,
       },
     },
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+    },
   },
   variants: {
     opacity: ({ after }) => after(['disabled']),
