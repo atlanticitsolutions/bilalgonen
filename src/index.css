@@ -12,6 +12,9 @@
   body {
     @apply font-texts relative;
   }
+  section a {
+    @apply text-blue-700 hover:text-blue-500;
+  }
   .size {
     @apply w-[50%] md:w-[50%] mx-auto;
   }
