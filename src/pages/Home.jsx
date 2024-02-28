@@ -4,6 +4,8 @@ import Experience from '../components/Experience'
 import Certificates from '../components/Certificates'
 import Skills from '../components/Skills'
 import Positions from '../components/Positions'
+import Education from '../components/Education'
+import TeachingExperience from '../components/TeachingExperience'
 
 export const Home = () => {
   return (
@@ -19,6 +21,12 @@ export const Home = () => {
       </Section>
       <Section title='Academic Positions'>
         <Positions />
+      </Section>
+      <Section title='Education'>
+        <Education />
+      </Section>
+      <Section title='Teaching Experience'>
+        <TeachingExperience />
       </Section>
     </main>
   )
