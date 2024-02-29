@@ -15,6 +15,9 @@
   section a {
     @apply text-blue-700 hover:text-blue-500;
   }
+  section h2 {
+    @apply text-red-600 text-xl font-semibold mt-6;
+  }
   .size {
     @apply w-[50%] md:w-[50%] mx-auto;
   }
