@@ -38,9 +38,8 @@ export const Header = () => {
           </div>
         </Link>
         <div className='hidden xs:flex items-center space-x-4 md:space-x-8 text-xs sm:text-sm md:text-lg '>
-          <MenuItem url={'#'} title='Home-Resume' />
-
-          <MenuItem url={'#'} title='Projects' />
+          <MenuItem url={'/'} title='Home-Resume' />
+          <MenuItem url={'cv'} title='Academic CV' />
         </div>
 
         <div className='xs:hidden'>
@@ -68,9 +67,8 @@ export const Header = () => {
                   </div>
                 </div>
                 <nav className='flex flex-col gap-2 divide-y text-2xl'>
-                  <MenuItem url={'#'} title='Home-Resume' />
-
-                  <MenuItem url={'#'} title='Projects' />
+                  <MenuItem url={'/'} title='Home-Resume' />
+                  <MenuItem url={'cv'} title='Academic CV' />
                 </nav>
               </div>
             </div>
