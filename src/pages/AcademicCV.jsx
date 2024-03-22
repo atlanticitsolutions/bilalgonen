@@ -13,7 +13,6 @@ import ProfessionalActivities from '../components/ProfessionalActivities'
 import ServiceUniversity from '../components/ServiceUniversity'
 import ServiceDepartment from '../components/ServiceDepartment'
 import ServiceCommunity from '../components/ServiceCommunity'
-import SocialLinks from '../components/SocialLinks'
 
 export const AcademicCV = () => {
   return (
