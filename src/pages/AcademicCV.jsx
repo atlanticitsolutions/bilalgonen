@@ -7,7 +7,7 @@ import Positions from '../components/Positions'
 import Education from '../components/Education'
 import TeachingExperience from '../components/TeachingExperience'
 import Publications from '../components/Publications'
-import Advising from '../components/Advising'
+import Advising from '../components/AdvisingHome'
 import Awards from '../components/Awards'
 import ProfessionalActivities from '../components/ProfessionalActivities'
 import ServiceUniversity from '../components/ServiceUniversity'
@@ -16,7 +16,7 @@ import ServiceCommunity from '../components/ServiceCommunity'
 
 export const AcademicCV = () => {
   return (
-    <main className='flex flex-col px-2 sm:px-4 py-2 sm:py-8 gap-8 sm:gap-16'>
+    <main className='flex flex-col px-2 sm:px-4 py-8 sm:py-8 gap-16 sm:gap-16'>
       <Section title='Experience'>
         <Experience />
       </Section>
